@@ -10,9 +10,9 @@ terraform {
     # Key needs to be different for EVERY terraform project.
     key = "global/single-ec2-remote-state/terraform.tfstate"
 
-    bucket = "terraform-remote-state-198036150276"
-    region = "us-east-1"
+    bucket         = "opentofu-remote-state-986377"
+    region         = "ap-northeast-3"
     dynamodb_table = "terraform-locks"
-    encrypt = true
+    encrypt        = true
   }
 }
